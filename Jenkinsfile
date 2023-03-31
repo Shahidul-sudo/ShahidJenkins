@@ -7,17 +7,17 @@ pipeline {
     stages {
         stage('Stage Name 1') {
             steps {
-                sh 'echo Hello World $ENV_URL'
+                sh "Hello World $ENV_URL"
             }
         }
         stage('Stage Name 2') {
             steps {
-               sh 'echo Hello World Shahid'
+               sh "echo Hello World Shahid"
             }
         }
         stage('Stage Name 3') {
             steps {
-                sh 'echo Hello World Islam'
+                sh "echo Hello World Islam"
             }
         }
     }
