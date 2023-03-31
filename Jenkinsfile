@@ -2,9 +2,19 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Stage Name 1') {
             steps {
-                echo 'Hello World Shahid'
+                sh 'echo Hello World Mohammed'
+            }
+        }
+        stage('Stage Name 3') {
+            steps {
+               sh 'echo Hello World Shahid'
+            }
+        }
+        stage('Stage Name 3') {
+            steps {
+                sh 'echo Hello World Islam'
             }
         }
     }
