@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    enviornment{
+    enviornment {
         ENV_URL = "shahid.com"
     }
     stages {
